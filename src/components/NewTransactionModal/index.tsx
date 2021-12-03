@@ -87,7 +87,7 @@ export function NewTransactionModal(
                     onChange={event => setCategory(event.target.value)}
                 />
 
-                <button type="submit">Cadastrar</button>
+                <button type="submit" onSubmit={handleCreateNewTransaction}>Cadastrar</button>
 
             </Container>
         </Modal>
